@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>대학 AI 활용 윤리 가이드라인 (학습자용 웹 가이드)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- 상단 고정 네비게이션 헤더 -->
+  <header class="sticky-header">
+    <div class="brand-wrap">
+      <div class="brand-dot"></div>
+      <span class="brand-title">대학 AI 활용 윤리 가이드라인</span>
+    </div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#hero" class="nav-link active">개요</a></li>
+        <li><a href="#purpose" class="nav-link">01. 취지·목적</a></li>
+        <li><a href="#principles" class="nav-link">02. 5대 원칙</a></li>
+        <li><a href="#guidelines1" class="nav-link">03. 활용범위·출처</a></li>
+        <li><a href="#guidelines2" class="nav-link">03. 3대 수칙</a></li>
+        <li><a href="#evaluation" class="nav-link">04. 오용기준·조치</a></li>
+        <li><a href="#checklist" class="nav-link">05. 자가진단기</a></li>
+        <li><a href="#closing" class="nav-link">Q&A</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- 메인 원페이지 컨테이너 -->
+  <main class="main-wrapper">
+
+    <!-- ==============================================
+         1. 히어로 / 표지 섹션
+         ============================================== -->
+    <section class="guide-section" id="hero">
+      <div class="hero-card">
+        <div class="deco-bar"></div>
+        <span class="badge badge-blue" style="margin-bottom: 14px;">학습자용 핵심 요약 가이드북</span>
+        <h1 class="hero-title">대학 AI 활용 윤리 가이드라인</h1>
+        <p class="hero-subtitle">
+          수업 · 과제 · 시험 및 평가에서 대학생이 반드시 알아야 할<br>
+          <strong>핵심 원칙, 실천 지침, 오용 기준 및 자가 체크리스트</strong>
+        </p>
+
+        <div class="hero-tags">
+          <span class="badge badge-slate">#자율적_예방가이드</span>
+          <span class="badge badge-slate">#5대_핵심원칙</span>
+          <span class="badge badge-slate">#출처표기_표준</span>
+          <span class="badge badge-slate">#1차문헌_검증</span>
+          <span class="badge badge-slate">#자가체크리스트</span>
+        </div>
+
+        <div style="font-size: 12.5px; color: #94a3b8; border-top: 1px solid #e2e8f0; padding-top: 16px; margin-top: 10px;">
+          원문 출처: 교육부 · 한국대학교육협의회 「대학 AI 활용 윤리 가이드라인」 (2026. 8. 21.)<br>
+          연구진: 고려대학교 김자미 · 유길상 외 | 발췌 재구성: 학습자(대학생)용
+        </div>
+      </div>
+    </section>
+
+    <!-- ==============================================
+         2. 취지 및 목적
+         ============================================== -->
+    <section class="guide-section" id="purpose">
+      <div class="section-header">
+        <span class="category-tag">01 취지 및 목적</span>
+        <h2 class="section-title">AI 규제가 아닌 '자율적이고 예방적인 행동 가이드'</h2>
+        <p class="section-desc">대학 구성원이 교수·학습 현장에서 AI를 책임 있게 활용하도록 지원하는 기준입니다.</p>
+      </div>
+
+      <div class="grid-2">
+        <!-- 지양 카드 -->
+        <div class="floating-card interactive" style="border-top: 4px solid #ef4444;">
+          <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 14px;">
+            <span class="badge badge-red">❌ 지양</span>
+            <strong style="font-size: 16px; color: #991b1b;">단순 결과물 대행 도구로 사용</strong>
+          </div>
+          <ul style="font-size: 13px; color: #475569; line-height: 1.8; padding-left: 18px;">
+            <li>과제 · 보고서를 AI에게 전적으로 대신 작성하게 함</li>
+            <li>생성 결과를 검토나 수정 없이 그대로 복사 · 제출</li>
+            <li>출처와 사용 사실을 숨기고 본인의 성과로 위장</li>
+            <li>학습 목표와 사고 과정을 건너뛰는 수단으로 악용</li>
+          </ul>
+        </div>
+
+        <!-- 지향 카드 -->
+        <div class="floating-card interactive" style="border-top: 4px solid #2563eb;">
+          <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 14px;">
+            <span class="badge badge-blue">⭕ 지향</span>
+            <strong style="font-size: 16px; color: #1e40af;">사고와 학습을 확장하는 협업자</strong>
+          </div>
+          <ul style="font-size: 13px; color: #475569; line-height: 1.8; padding-left: 18px;">
+            <li>아이디어 도출, 문장 교정, 개념 이해의 보조 도구로 활용</li>
+            <li>AI의 답변을 비판적으로 검토하고 <strong>1차 문헌으로 사실 검증</strong></li>
+            <li>사용 범위와 출처를 투명하게 기록하고 학습 과정 성찰</li>
+            <li><strong>최종 판단과 결과에 대한 책임은 학습자 본인이 보유</strong></li>
+          </ul>
+        </div>
+      </div>
+
+      <div style="margin-top: 14px; padding: 12px 18px; background: rgba(255, 255, 255, 0.9); border-radius: 8px; font-size: 12.5px; color: #64748b; border: 1px solid #e2e8f0;">
+        💡 <strong>적용 범위:</strong> 수업 · 과제 · 시험 및 평가 등 교수·학습 현장 중심 (※ 연구 활동에서의 AI 활용은 본 가이드라인 범위에서 제외)
+      </div>
+    </section>
+
+    <!-- ==============================================
+         3. 5대 핵심 원칙
+         ============================================== -->
+    <section class="guide-section" id="principles">
+      <div class="section-header">
+        <span class="category-tag">02 핵심 원칙</span>
+        <h2 class="section-title">대학 공동체 5대 핵심 원칙 및 12개 세부 원칙</h2>
+        <p class="section-desc">교수자와 학습자가 함께 공유하고 실천해야 할 기본 틀입니다. 카드를 클릭하면 세부 지침이 열립니다.</p>
+      </div>
+
+      <div class="grid-5">
+        <div class="floating-card principle-card active" data-index="0" style="border-top-color: #2563eb;">
+          <span class="badge badge-blue" style="margin-bottom: 8px; width: fit-content;">01</span>
+          <h4 style="font-size: 14px; color: var(--navy-title); margin-bottom: 4px;">학문적 진실성</h4>
+          <p style="font-size: 11px; color: #2563eb; font-weight: 700; margin-bottom: 8px;">교육 목적 & 윤리 준수</p>
+          <span style="font-size: 11.5px; color: #64748b;">• 윤리 지침 준수<br>• 인용·출처 표기</span>
+        </div>
+
+        <div class="floating-card principle-card" data-index="1" style="border-top-color: #0284c7;">
+          <span class="badge badge-blue" style="margin-bottom: 8px; width: fit-content;">02</span>
+          <h4 style="font-size: 14px; color: var(--navy-title); margin-bottom: 4px;">인간 중심성</h4>
+          <p style="font-size: 11px; color: #0284c7; font-weight: 700; margin-bottom: 8px;">최종 책임은 인간에게</p>
+          <span style="font-size: 11.5px; color: #64748b;">• 결과 통제권 유지<br>• 상호 합의 활용</span>
+        </div>
+
+        <div class="floating-card principle-card" data-index="2" style="border-top-color: #0ea5e9;">
+          <span class="badge badge-blue" style="margin-bottom: 8px; width: fit-content;">03</span>
+          <h4 style="font-size: 14px; color: var(--navy-title); margin-bottom: 4px;">투명성과 신뢰</h4>
+          <p style="font-size: 11px; color: #0ea5e9; font-weight: 700; margin-bottom: 8px;">사용 공개 & 사실 검증</p>
+          <span style="font-size: 11.5px; color: #64748b;">• 사용 사실 공개<br>• 1차 문헌 검증</span>
+        </div>
+
+        <div class="floating-card principle-card" data-index="3" style="border-top-color: #6366f1;">
+          <span class="badge badge-blue" style="margin-bottom: 8px; width: fit-content;">04</span>
+          <h4 style="font-size: 14px; color: var(--navy-title); margin-bottom: 4px;">공정성</h4>
+          <p style="font-size: 11px; color: #6366f1; font-weight: 700; margin-bottom: 8px;">차별 없는 공평한 접근</p>
+          <span style="font-size: 11.5px; color: #64748b;">• 차별·편향 방지<br>• 포용적 학습 보장</span>
+        </div>
+
+        <div class="floating-card principle-card" data-index="4" style="border-top-color: #334155;">
+          <span class="badge badge-slate" style="margin-bottom: 8px; width: fit-content;">05</span>
+          <h4 style="font-size: 14px; color: var(--navy-title); margin-bottom: 4px;">정보보호·보안</h4>
+          <p style="font-size: 11px; color: #334155; font-weight: 700; margin-bottom: 8px;">개인정보 & 안전성</p>
+          <span style="font-size: 11.5px; color: #64748b;">• 민감정보 금지<br>• 안전성 검증 도구</span>
+        </div>
+      </div>
+
+      <!-- 세부 상세 아코디언 -->
+      <div class="detail-accordion" id="principleDetailBox">
+        <h4 id="principleDetailTitle" style="font-size: 15px; color: var(--blue-main); margin-bottom: 8px;">
+          01. 학문적 진실성 (Academic Integrity)
+        </h4>
+        <p id="principleDetailDesc" style="font-size: 13px; color: #334155; line-height: 1.7;">
+          • 기관 및 강의계획서의 윤리 지침을 최우선 준수합니다.<br>
+          • 활용 방식, 사용 범위, 생성 프롬프트를 명확히 기록하고 출처를 반드시 명기합니다.
+        </p>
+      </div>
+    </section>
+
+    <!-- ==============================================
+         4. 실천 지침 ① & 출처 표기 생성기
+         ============================================== -->
+    <section class="guide-section" id="guidelines1">
+      <div class="section-header">
+        <span class="category-tag">03 실천 지침 ①</span>
+        <h2 class="section-title">수업에서의 AI 활용 범위 & 스마트 출처 표기 생성기</h2>
+        <p class="section-desc">강의계획서 공지를 확인하고, 과제 제출 시 아래 생성기로 정확한 학술 출처를 표기하세요.</p>
+      </div>
+
+      <div class="grid-3">
+        <div class="floating-card interactive">
+          <span class="badge badge-red">유형 ①</span>
+          <h4 style="color: #991b1b; font-size: 15px; margin: 8px 0 6px 0;">사용 금지</h4>
+          <p style="font-size: 12.5px; color: #475569; line-height: 1.6;">
+            수업·과제·시험 전 과정 전면 금지.<br>
+            <strong style="color: #dc2626;">→ 무단 사용 시 즉시 부정행위 처리</strong>
+          </p>
+        </div>
+
+        <div class="floating-card interactive">
+          <span class="badge badge-blue">유형 ②</span>
+          <h4 style="color: #1d4ed8; font-size: 15px; margin: 8px 0 6px 0;">제한적 사용</h4>
+          <p style="font-size: 12.5px; color: #475569; line-height: 1.6;">
+            사전 승인된 도구·활동에 한해 허용.<br>
+            <strong>→ 사용 목적 명시 + 출처 표기 필수</strong>
+          </p>
+        </div>
+
+        <div class="floating-card interactive">
+          <span class="badge badge-green">유형 ③</span>
+          <h4 style="color: #15803d; font-size: 15px; margin: 8px 0 6px 0;">사용 허용 (자유)</h4>
+          <p style="font-size: 12.5px; color: #475569; line-height: 1.6;">
+            제약 없이 보조 도구로 자유 활용.<br>
+            <strong>→ 무검토 복사 제출 금지 + 출처 표기</strong>
+          </p>
+        </div>
+      </div>
+
+      <!-- 출처 생성기 위젯 -->
+      <div class="citation-box">
+        <div style="font-size: 13.5px; font-weight: 700; color: var(--navy-title); margin-bottom: 10px;">
+          🛠️ 실시간 학술 인용(출처 표기) 양식 생성기
+        </div>
+        <div class="citation-form">
+          <select class="form-select" id="citeTool">
+            <option value="ChatGPT">ChatGPT (OpenAI)</option>
+            <option value="Gemini">Gemini (Google)</option>
+            <option value="Claude">Claude (Anthropic)</option>
+          </select>
+          <input type="text" class="form-input" id="citeVersion" placeholder="버전 (예: GPT-4o, Aug 20)" value="GPT-4o (Aug 20)">
+          <select class="form-select" id="citeFormat">
+            <option value="APA">APA 7th 스타일</option>
+            <option value="MLA">MLA 스타일</option>
+          </select>
+        </div>
+        <div class="citation-result-wrap">
+          <span class="citation-text" id="citeOutput">OpenAI. (2026). ChatGPT (GPT-4o (Aug 20)) [Large language model]. https://chat.openai.com/chat</span>
+          <button class="btn-copy" id="btnCopyCite">📋 인용구 복사</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==============================================
+         5. 실천 지침 ②
+         ============================================== -->
+    <section class="guide-section" id="guidelines2">
+      <div class="section-header">
+        <span class="category-tag">03 실천 지침 ②</span>
+        <h2 class="section-title">투명한 공개 · 비판적 검증 · 정보 보호 및 보안</h2>
+        <p class="section-desc">AI를 활용할 때 학습자가 거쳐야 할 3대 핵심 실천 프로세스입니다.</p>
+      </div>
+
+      <div class="grid-3">
+        <div class="floating-card interactive" style="border-top: 4px solid #2563eb;">
+          <div style="width: 44px; height: 44px; border-radius: 50%; background: #2563eb; color: #fff; display: flex; align-items: center; justify-content: center; font-weight: 800; margin-bottom: 14px;">01</div>
+          <h4 style="font-size: 16px; color: var(--navy-title); margin-bottom: 10px;">투명한 공개 & 검증</h4>
+          <p style="font-size: 13px; color: #475569; line-height: 1.65;">
+            • <strong>사용 사실·과정 공개:</strong> 과제 제출 시 도구, 프롬프트, 재구성 방식을 투명하게 명시<br>
+            • <strong>1차 문헌 검증:</strong> 생성물은 2차 자료이므로 학술 논문 및 공인 데이터로 대조 검증
+          </p>
+        </div>
+
+        <div class="floating-card interactive" style="border-top: 4px solid #0284c7;">
+          <div style="width: 44px; height: 44px; border-radius: 50%; background: #0284c7; color: #fff; display: flex; align-items: center; justify-content: center; font-weight: 800; margin-bottom: 14px;">02</div>
+          <h4 style="font-size: 16px; color: var(--navy-title); margin-bottom: 10px;">책임성 & 편향 점검</h4>
+          <p style="font-size: 13px; color: #475569; line-height: 1.65;">
+            • <strong>최종 귀속 책임:</strong> 환각 오류, 저작권 침해, 성적 등 모든 책임은 사용자 본인에게 귀속<br>
+            • <strong>편향·차별 검토:</strong> 성별, 인종, 사회적 편견이 포함되지 않도록 면밀히 수정
+          </p>
+        </div>
+
+        <div class="floating-card interactive" style="border-top: 4px solid #334155;">
+          <div style="width: 44px; height: 44px; border-radius: 50%; background: #334155; color: #fff; display: flex; align-items: center; justify-content: center; font-weight: 800; margin-bottom: 14px;">03</div>
+          <h4 style="font-size: 16px; color: var(--navy-title); margin-bottom: 10px;">정보보호 & 과의존 방지</h4>
+          <p style="font-size: 13px; color: #475569; line-height: 1.65;">
+            • <strong>민감정보 입력 금지:</strong> 개인정보, 미공개 과제·시험문제, 교수자 피드백 입력 금지<br>
+            • <strong>비판적 사고 유지:</strong> AI 도구에 맹목적으로 의존하지 않고 주체적 학습 역량 보존
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==============================================
+         6. 평가와 오용 기준 & 자가 퀴즈
+         ============================================== -->
+    <section class="guide-section" id="evaluation">
+      <div class="section-header">
+        <span class="category-tag">04 평가와 오용 기준</span>
+        <h2 class="section-title">평가에서의 AI 오용 정의, 위반 등급별 조치</h2>
+        <p class="section-desc">학습자가 자신의 것이 아닌 작업물을 제출하거나 출처를 은폐한 행위의 징계 기준입니다.</p>
+      </div>
+
+      <table>
+        <thead>
+          <tr>
+            <th style="width: 18%;">위반 등급</th>
+            <th style="width: 48%;">위반 유형 (예시)</th>
+            <th style="width: 34%;">조치 안내 (예시)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="badge badge-slate">주의 (Minor)</span></td>
+            <td>단순 출처 표기 누락, 경미한 문맥 교정 보조 도구 활용</td>
+            <td>해당 과제 <strong>감점 및 재제출 권고</strong></td>
+          </tr>
+          <tr>
+            <td><span class="badge badge-blue">경고 (Moderate)</span></td>
+            <td>생성 내용을 본인 창작물처럼 제출(표절), 환각 검증 미흡</td>
+            <td>해당 과제 <strong>0점 처리 및 윤리 교육 이수</strong></td>
+          </tr>
+          <tr>
+            <td><span class="badge badge-red">중결함 (Severe)</span></td>
+            <td>시험 중 실시간 질의 복사, 과제 대리 작성, 고의적 데이터 조작</td>
+            <td>해당 과목 <strong>F 학점 부여 등 중징계</strong></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!-- 상황 퀴즈 위젯 -->
+      <div class="quiz-box">
+        <div style="font-size: 14px; font-weight: 700; color: var(--navy-title); margin-bottom: 6px;">
+          🤔 상황 퀴즈로 이해하는 오용 기준
+        </div>
+        <p style="font-size: 13px; color: #475569;">
+          "보고서의 핵심 3개 문단을 AI로 생성한 뒤, 출처 표기나 검증 없이 본인이 직접 작성한 것처럼 제출했다면?"
+        </p>
+        <div class="quiz-options">
+          <button class="btn-quiz-opt" data-grade="minor">1. 주의 (Minor)</button>
+          <button class="btn-quiz-opt" data-grade="warning">2. 경고 (Moderate)</button>
+          <button class="btn-quiz-opt" data-grade="severe">3. 중결함 (Severe)</button>
+        </div>
+        <div class="quiz-feedback" id="quizFeedback"></div>
+      </div>
+    </section>
+
+    <!-- ==============================================
+         7. 실시간 자가 체크리스트 진단기
+         ============================================== -->
+    <section class="guide-section" id="checklist">
+      <div class="section-header">
+        <span class="category-tag">05 자가 체크리스트</span>
+        <h2 class="section-title">과제 제출 전 인터랙티브 자가 진단기</h2>
+        <p class="section-desc">과제의 AI 기여도를 조절하고 윤리 항목을 체크하면 종합 안전성 점수가 실시간 계산됩니다.</p>
+      </div>
+
+      <div class="calc-container">
+        <!-- 기여도 슬라이더 및 점수 -->
+        <div class="floating-card">
+          <h4 style="font-size: 15px; margin-bottom: 14px; color: var(--navy-title);">기여도 비율 설정</h4>
+          
+          <div class="slider-group">
+            <div class="slider-header">
+              <span>AI 기여도: <strong id="valAi" style="color: var(--blue-main);">30%</strong></span>
+              <span>학생 기여도: <strong id="valStudent" style="color: #166534;">70%</strong></span>
+            </div>
+            <input type="range" class="custom-slider" id="sliderAi" min="0" max="100" value="30">
+          </div>
+
+          <div class="score-panel" style="margin-top: 18px;">
+            <div style="font-size: 12.5px; color: #64748b; margin-bottom: 4px;">나의 AI 활용 윤리 점수</div>
+            <div class="score-badge" id="scoreNumber">100점</div>
+            <div id="scoreStatus" style="font-size: 13px; font-weight: 700; color: #15803d; margin-top: 6px;">
+              안전 및 윤리 기준 충족 ✅
+            </div>
+          </div>
+
+          <button class="btn-copy" id="btnCopyReport" style="width: 100%; margin: 18px 0 0 0; padding: 12px; font-size: 13px;">
+            📋 자가 점검표 요약본 복사하기
+          </button>
+        </div>
+
+        <!-- 14개 체크리스트 -->
+        <div class="floating-card">
+          <h4 style="font-size: 15px; margin-bottom: 14px; color: var(--navy-title);">
+            윤리 자가 체크리스트 (클릭하여 확인)
+          </h4>
+          <div class="checklist-scroll">
+            <label class="check-item">
+              <input type="checkbox" class="checklist-checkbox" checked data-label="강의계획서의 AI 허용 방침 확인">
+              <span>[준비] 강의계획서 상의 AI 활용 허용 방침을 확인했다.</span>
+            </label>
+            <label class="check-item">
+              <input type="checkbox" class="checklist-checkbox" checked data-label="지정된 방식에 따른 출처 표기">
+              <span>[출처] 지정된 양식(APA 등)에 맞추어 도구와 버전을 명기했다.</span>
+            </label>
+            <label class="check-item">
+              <input type="checkbox" class="checklist-checkbox" checked data-label="AI 산출물 1차 문헌 대조 검증">
+              <span>[검증] AI 산출물의 사실 여부를 공인 학술 자료로 검증했다.</span>
+            </label>
+            <label class="check-item">
+              <input type="checkbox" class="checklist-checkbox" checked data-label="과제 최종 결과에 대한 본인 책임 인지">
+              <span>[책임] 오류나 표절 등 모든 책임이 본인에게 있음을 인지했다.</span>
+            </label>
+            <label class="check-item">
+              <input type="checkbox" class="checklist-checkbox" checked data-label="개인정보 및 기밀 데이터 미입력">
+              <span>[보안] 학번, 이름 등 개인정보 및 시험문제를 입력하지 않았다.</span>
+            </label>
+            <label class="check-item">
+              <input type="checkbox" class="checklist-checkbox" checked data-label="편향 및 차별 표현 검토">
+              <span>[공정] 성별, 인종 등 차별이나 편견이 포함되지 않도록 검토했다.</span>
+            </label>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==============================================
+         8. 맺음말 & Q&A
+         ============================================== -->
+    <section class="guide-section" id="closing">
+      <div class="floating-card hero-card">
+        <div class="deco-bar"></div>
+        <div class="qna-bubble-wrap">Q & A</div>
+        <span class="badge badge-blue" style="margin-bottom: 10px;">핵심 메시지 요약</span>
+        <blockquote style="font-size: 20px; font-weight: 800; color: var(--navy-title); line-height: 1.5; margin: 16px 0 24px 0;">
+          “AI는 답을 대신 써주는 도구가 아니라,<br>
+          나의 사고와 학습을 확장하는 협업자입니다.”
+        </blockquote>
+        <h3 style="font-size: 20px; color: var(--navy-title); margin-bottom: 8px;">경청해 주셔서 대단히 감사합니다</h3>
+        <p style="font-size: 13px; color: var(--text-muted); line-height: 1.6;">
+          질문과 의견을 자유롭게 나눠주세요.<br>
+          교육부 · 한국대학교육협의회 「대학 AI 활용 윤리 가이드라인」 (2026. 8.)
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- 우측 하단 맨위로 버튼 -->
+  <button class="btn-top" id="btnTop" title="맨 위로 이동">▲</button>
+
+  <!-- 복사 알림 토스트 -->
+  <div class="toast" id="toast">알림 메시지</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
